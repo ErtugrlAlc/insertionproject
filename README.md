@@ -16,8 +16,8 @@
 	Big - O (n^2)
 3. 18 sayısı average case kapsamındadır.
 
-2. Soruya cevap -- [7,35,8,2,9,4,15,6] dizisinin ilk dört basamağı
-    1. [2,35,8,7,9,4,15,6]
-    2. [2,4,8,7,9,35,15,6]
-    3. [2,4,6,7,9,35,15,8]
-    4. [2,4,6,7,9,35,15,8] - 4. basamakta yer değiştirme olmaz. 7 yi diğerleriyle karşılaştırır ve onlardan küçük olduğu için yerinde bırakıp bir sonraki basamağa geçer.
+2. Soruya cevap -- [7,3,5,8,2,9,4,15,6] dizisinin ilk dört basamağı
+    1. [2,3,5,8,7,9,4,15,6]
+    2. [2,3,4,8,7,9,5,15,6]
+    3. [2,3,4,5,7,9,8,15,6]
+    4. [2,3,4,5,6,9,8,15,7] 
